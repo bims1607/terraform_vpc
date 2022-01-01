@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+    terraform:
+        build: .
+        container_name: terraform_aws
+        volumes:
+          - ../code:/tmp/terra
