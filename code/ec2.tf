@@ -1,4 +1,5 @@
-data "aws_ami" "ubuntu" {
+#creating EC2
+data "aws_am i" "ubuntu" {
   most_recent = true
 
   filter {
